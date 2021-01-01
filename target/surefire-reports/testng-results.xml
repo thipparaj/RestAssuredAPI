@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8740" started-at="2020-12-25T22:31:22 IST" finished-at="2020-12-25T22:31:31 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="8740" started-at="2020-12-25T22:31:22 IST" finished-at="2020-12-25T22:31:31 IST">
+      <class name="com.crownelearn.Test.TestAPI_1">
+        <test-method status="PASS" signature="testing()[pri:0, instance:com.crownelearn.Test.TestAPI_1@1e397ed7]" name="testing" duration-ms="3646" started-at="2020-12-25T22:31:22 IST" finished-at="2020-12-25T22:31:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- com.crownelearn.Test.TestAPI_1 -->
+      <class name="com.crownelearn.Test.TestAPI_DD_Post">
+        <test-method status="PASS" signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crownelearn.Test.TestAPI_DD_Post@56ac3a89]" name="postNewEmployee" duration-ms="1948" started-at="2020-12-25T22:31:28 IST" data-provider="empDataProvider" finished-at="2020-12-25T22:31:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployee -->
+        <test-method status="PASS" signature="postNewEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crownelearn.Test.TestAPI_DD_Post@56ac3a89]" name="postNewEmployee" duration-ms="1225" started-at="2020-12-25T22:31:30 IST" data-provider="empDataProvider" finished-at="2020-12-25T22:31:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[43000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployee -->
+      </class> <!-- com.crownelearn.Test.TestAPI_DD_Post -->
+      <class name="com.crownelearn.Test.TestAPI_2Post">
+        <test-method status="PASS" signature="testAssured()[pri:0, instance:com.crownelearn.Test.TestAPI_2Post@490ab905]" name="testAssured" duration-ms="1848" started-at="2020-12-25T22:31:26 IST" finished-at="2020-12-25T22:31:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssured -->
+      </class> <!-- com.crownelearn.Test.TestAPI_2Post -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
