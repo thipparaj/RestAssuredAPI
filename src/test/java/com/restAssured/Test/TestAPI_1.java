@@ -1,4 +1,4 @@
-package com.crownelearn.Test;
+package com.restAssured.Test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

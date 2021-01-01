@@ -1,4 +1,4 @@
-package com.crownelearn.Test;
+package com.restAssured.Test;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
